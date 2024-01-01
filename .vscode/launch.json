@@ -1,0 +1,16 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "name": "Cli",
+         "type": "coreclr",
+         "request": "launch",
+         "preLaunchTask": "build-cli",
+         "program": "${workspaceFolder}/FolderSync.cli/bin/Debug/net7.0/FolderSync.cli.dll",
+         "args": [],
+         "cwd": "${workspaceFolder}",
+         "console": "internalConsole",
+         "stopAtEntry": false
+      }
+   ]
+}
